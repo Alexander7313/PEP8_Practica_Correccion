@@ -1,6 +1,8 @@
-""" Calculadora para mcm"""
-
+"""Halla el MCM con el MCD"""
 class CalculadoraMCM:
+    """Clase que proporciona métodos para calcular el Mínimo Común Múltiplo (MCM)
+        a partir del Máximo Común Divisor (MCD).
+        """
     def __init__(self):
         pass
 
@@ -27,6 +29,7 @@ if __name__ == "__main__":
 
         resultado = calculadora.calcular_mcm(num1, num2)
         print(f"El Mínimo Común Múltiplo de {num1} y {num2} es: {resultado}")
+
     except ValueError as e:
         print(f"Error: {e}")
 
