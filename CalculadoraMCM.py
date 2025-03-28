@@ -1,3 +1,5 @@
+""" Calculadora para mcm"""
+
 class CalculadoraMCM:
     def __init__(self):
         pass
